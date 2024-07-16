@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS multijobs;
+CREATE TABLE IF NOT EXISTS multijobs (
+    license VARCHAR(50) PRIMARY KEY,
+    jobs JSON NOT NULL
+);
