@@ -13,7 +13,6 @@ RegisterCommand(Config.OpenCommand, function()
                 })
             end
 
-            debug(ESX.PlayerData.job.name("police"))
             SendNUIMessage({
                 type = 'showJobs',
                 jobs = elements
